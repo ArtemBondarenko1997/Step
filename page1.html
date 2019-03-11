@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+	<title>Page1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="BookImg"><img id="selectedImg" src = "upload.png" alt = "Текущая картинка"></div>
+	
+	<form class="bookInfo" method="POST" onsubmit="CheckFields()" enctype="multipart/form-data" id="myForm" action="page2.html">
+		<div class="infoFile">Добавить фото: <input type="file" accept="image/x-png,image/gif,image/jpeg" id="upload" name= "upload[]" multiple></div>
+		<div class="infoFile">Название: <input type="text" id="BookName" class="infoInput"></div>
+		<div class="infoFile">Автор: <input type="text" id="BookAuthor" class="infoInput"></div>
+		<div class="infoFile">Год издания: <input type="text" id="DataPublication" class="infoInput"></div>
+		<div class="infoFile">Издательство: <input type="text" id="PublishingHouse" class="infoInput"> </div>
+		<div class="infoFile">Адрес издательства: <input type="text" id="Addres" class="infoInput"></div>
+		<div class="infoFile">Телефон издательства: <input type="text" id="Phone" class="infoInput"></div>
+		<div class="infoFile">Категория: <input type="text" id="BookHeading" class="infoInput"></div>
+		<input type="submit" value="Отправить" class="submitBtn">
+	</form>
+
+	<div id="imgList"></div>
+<script type="text/javascript" src="entry1.js"></script></body>
+</html>

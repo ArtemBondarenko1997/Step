@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.infoFile{
+	margin: 10px;
+}
+.BookName{
+	text-align: center;
+}
+#BookImg{
+	text-align: center;
+	width: 40%;
+	display: inline-block;
+	margin-top: 20px;
+}
+#imgList{
+	width: 40%;
+	text-align: center;
+	margin-top: 10px;
+}
+#imgList img{
+	max-width: 70px;
+	max-height: 90px;
+	cursor: pointer;
+}
+#selectedImg{
+	max-width: 300px;
+}
+.bookInfo{
+	display: inline-block;
+	position: absolute;
+	width: 45%;
+}
+.submitBtn{
+	width: 45%;
+    background: black;
+    height: 40px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.infoInput{
+	border-radius: 5px;
+    height: 20px;
+    float: right;
+    width: 400px;
+}
+.imgBlock{
+	display: inline-block;
+    margin: 10px;
+}
+.imgBlock img{
+	max-width: 80px;
+}
+.infomation{
+	display: inline-block;
+    margin: 10px;
+}
+
+.Item{
+	position: relative;
+	content: '';
+    display: block;
+    clear: both;
+    height: 175px;
+    margin: 10px;
+    border-radius: 10px;
+    background: gainsboro;
+}
+
+.delBtn{
+	padding: 10px;
+    position: absolute;
+    top: calc(50% - 15px);
+    height: 35px;
+    right: 50px;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.editeBtn{
+	padding: 10px;
+    position: absolute;
+    top: calc(50% - 15px);
+    height: 35px;
+    right: 125px;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.addBook{
+	width: 90%;
+    display: block;
+    margin: 10px auto;
+    height: 35px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
